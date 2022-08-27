@@ -25,11 +25,11 @@ public class Main {
         //Task 3
 
         int currentYear = 2022;
-        int firstBorder= currentYear - 200;
-        int secondBorder= currentYear + 100;
-        int startYear = firstBorder - firstBorder % (firstBorder/79)  ;
+        int firstBorder = currentYear - 200;
+        int secondBorder = currentYear + 100;
+        int startYear = firstBorder - firstBorder % (firstBorder / 79);
 
-        for (int i = startYear + 79 ; i < secondBorder; i = i + 79) {
+        for (int i = startYear + 79; i < secondBorder; i = i + 79) {
 
             System.out.println(i);
 
